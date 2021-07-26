@@ -20,7 +20,6 @@ class CreateTasksTable extends Migration
             $table->string('age');
             $table->string('address');
             $table->string('symptoms');
-            $table->string('vaccine');
             $table->string('status');
             $table->timestamps();
         });
